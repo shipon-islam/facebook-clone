@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-band-btn {
+    @apply text-red-600 text-3xl;
+  }
+  .container-width {
+    @apply w-[90%] lg:w-[900px] mx-auto;
+  }
+  .navigate-btn {
+    @apply hidden sm:block uppercase font-semibold font-montserrat;
+  }
+  .input-box {
+    @apply border-b-2 border-gray-400 w-[280px] font-montserrat focus:outline-none placeholder:capitalize text-lg;
+  }
+  .form-control {
+    @apply relative w-fit mt-8 mx-auto;
+  }
+  .form-icons {
+    @apply absolute text-gray-400 right-1;
+  }
+}
